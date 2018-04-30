@@ -46,9 +46,8 @@ public class EurekaAddressClientController {
     @RequestMapping("/addresses")
     public List<String> getAddresses() {
 
-        String homePage = eurekaClient.getNextServerFromEureka(EUREKA_NAME_CLIENT, false).getHomePageUrl();
         ResponseEntity<List<String>> nameResponse =
-                restTemplate.exchange(homePage + "/names",
+                restTemplate.exchange("http://" + EUREKA_NAME_CLIENT + "/names",
                         HttpMethod.GET, null, new ParameterizedTypeReference<List<String>>() {
                         });
 
@@ -65,6 +64,7 @@ public class EurekaAddressClientController {
         return combined;
     }
 
+    @LoadBalanced
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
