@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../configuration-server/spring-configserver-example-master/spring-configserver-example-master/configuration-client/configuration-client.iml" filepath="$PROJECT_DIR$/../../configuration-server/spring-configserver-example-master/spring-configserver-example-master/configuration-client/configuration-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../configuration-server/spring-configserver-example-master/spring-configserver-example-master/configuration-service/configuration-service.iml" filepath="$PROJECT_DIR$/../../configuration-server/spring-configserver-example-master/spring-configserver-example-master/configuration-service/configuration-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-second-client/eureka-second-client.iml" filepath="$PROJECT_DIR$/eureka-second-client/eureka-second-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+    </modules>
+  </component>
+</project>
