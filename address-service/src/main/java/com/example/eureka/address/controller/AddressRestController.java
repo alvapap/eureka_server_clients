@@ -1,4 +1,4 @@
-package com.example.eureka.second.client.controller;
+package com.example.eureka.address.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @RibbonClient(name = "NAME-SVC")
 @RestController
-public class EurekaAddressClientController {
+public class AddressRestController {
 
 	@Autowired
 	private EurekaClient	eurekaClient;

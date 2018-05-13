@@ -1,4 +1,4 @@
-package com.example.eureka.second.client;
+package com.example.eureka.address;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,9 +8,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableCircuitBreaker
 @SpringBootApplication
 @EnableEurekaClient
-public class EurekaSecondClientApplication {
+public class AddressServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurekaSecondClientApplication.class, args);
+		SpringApplication.run(AddressServiceApplication.class, args);
 	}
 }

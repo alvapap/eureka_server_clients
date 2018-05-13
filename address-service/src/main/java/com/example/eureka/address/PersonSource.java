@@ -1,4 +1,4 @@
-package com.example.eureka.second.client;
+package com.example.eureka.address;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;

@@ -1,4 +1,4 @@
-package com.example.eureka.client.controller;
+package com.example.name.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class EurekaClientRestController {
+public class NameRestController {
 
 	@Autowired
 	private DiscoveryClient discoveryClient;
